@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 body {
   background: #eee;
-  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+  background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
   padding: 0 16px;
 }
 
@@ -21,7 +21,7 @@ header {
 
 header h1 {
   color: #fff;
-  font-family: "McLaren", cursive;
+  font-family: 'McLaren', cursive;
   font-weight: 200;
 }
 
@@ -100,4 +100,59 @@ form.create-note button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+
+.api-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  width: 450px;
+  margin: 10px auto;
+}
+
+.user-name-input {
+  width: calc(100% - 60px);
+  height: 40px;
+  border: none;
+  padding: 4px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.api-btn {
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+.result {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.result-container {
+  background: #fff;
+  border-radius: 7px;
+  width: 420px;
+
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+}
+
+.flex1 {
+  flex: 1;
+  width: '100%';
 }

@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-keeperaws-dev-05422-authRole",
+      "UnauthRoleArn": "arn:aws:iam::681878206139:role/amplify-keeperaws-dev-05422-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::681878206139:role/amplify-keeperaws-dev-05422-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-keeperaws-dev-05422-deployment",
+      "UnauthRoleName": "amplify-keeperaws-dev-05422-unauthRole",
+      "StackName": "amplify-keeperaws-dev-05422",
+      "StackId": "arn:aws:cloudformation:ap-south-1:681878206139:stack/amplify-keeperaws-dev-05422/26387430-c404-11ec-b84f-06ccd4637ba2",
+      "AmplifyAppId": "dsow95h4lkmja"
+    },
+    "categories": {
+      "function": {
+        "UserHandler": {
+          "deploymentBucketName": "amplify-keeperaws-dev-05422-deployment",
+          "s3Key": "amplify-builds/UserHandler-4878522b704235614236-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dsow95h4lkmja",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
